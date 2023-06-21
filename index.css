@@ -1,23 +1,30 @@
 
 body {
 
-    display: flex;
-    height: 1000px;
+    display: flex; /* les deux colonnes sont côte à côte */
+    height: 1000px;/* le body prend des PX de l'ecran du navigateur */
 }
 
 .colonne1 {
     width: 25%; /* Définir la largeur de la colonne */
-    padding-right: 2%; /* Définir la largeur de l'espace à droite de la colonne1 */
-    text-align: center;
-    background-color: rgb(168, 162, 162);
-    overflow-y: scroll;
+    /*padding-right: 1%; /* Définir la largeur de l'espace à droite de la colonne1 */
+    text-align: center;/* aligner le texte de la colonne2 */
+    background-color: rgb(168, 162, 162); /* choix couleur de fond colonne1 */
+    overflow-y: scroll; /* ajout du scroller dans la colonne1 */
     
     
   }
 
 .colonne2 {
     width: 75%; /* Définir la largeur de la colonne */
-    padding-left: 2%; /* Définir la largeur de l'espace à droite de la colonne2 */
-    text-align: center;
+    /*padding-left: 1%; /* Définir la largeur de l'espace à droite de la colonne2 */
+    text-align: center; /* aligner le texte de la colonne2 */
 }
 
+h3 {
+    border-width: 3%;
+    border-style : solid;
+    border-color: aliceblue;
+    margin: auto;
+
+}
