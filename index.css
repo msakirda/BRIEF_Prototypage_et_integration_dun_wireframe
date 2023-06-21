@@ -1,0 +1,20 @@
+
+body {
+
+    display: flex;
+}
+
+.colonne1 {
+    width: 25%; /* Définir la largeur de la colonne */
+    padding-right: 2%; /* Définir la largeur de l'espace à droite de la colonne1 */
+    text-align: center;
+    overflow-y: scroll;
+  }
+
+.colonne2 {
+    width: 75%; /* Définir la largeur de la colonne */
+    padding-left: 2%; /* Définir la largeur de l'espace à droite de la colonne2 */
+    text-align: center;
+}
+
+
