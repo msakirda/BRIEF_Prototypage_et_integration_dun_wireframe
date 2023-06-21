@@ -2,13 +2,17 @@
 body {
 
     display: flex;
+    height: 1000px;
 }
 
 .colonne1 {
     width: 25%; /* Définir la largeur de la colonne */
     padding-right: 2%; /* Définir la largeur de l'espace à droite de la colonne1 */
     text-align: center;
+    background-color: rgb(168, 162, 162);
     overflow-y: scroll;
+    
+    
   }
 
 .colonne2 {
@@ -16,5 +20,4 @@ body {
     padding-left: 2%; /* Définir la largeur de l'espace à droite de la colonne2 */
     text-align: center;
 }
-
 
