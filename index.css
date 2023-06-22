@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 html {
     height: 100%;
@@ -64,3 +65,4 @@ p {
 img {
     max-width: 50%;
 }
+
